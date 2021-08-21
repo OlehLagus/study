@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Arvo", "Georama", serif, sans-serif;
+}
+
+.canvas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+}
+
+.unit {
+  fill: none;
+  stroke-width: 10;
+}
+
+.unit:nth-child(1) {
+  stroke: #86cfa3;
+}
+
+.unit:nth-child(2) {
+  stroke: #a2c6e0;
+}
+
+.unit:nth-child(3) {
+  stroke: #ffc7ec;
+}
+
+.unit:nth-child(1) {
+  stroke: #86cfa3;
+  stroke-dasharray: 8 100;
+}
+
+.unit:nth-child(2) {
+  stroke: #a2c6e0;
+  stroke-dasharray: 11 100;
+  stroke-dashoffset: -8;
+}
+
+.unit:nth-child(3) {
+  stroke: #ffc7ec;
+  stroke-dasharray: 11 100;
+  stroke-dashoffset: -19;
+}
